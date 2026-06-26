@@ -18,7 +18,7 @@ from ultralytics import YOLO
 
 APP_DIR = Path(__file__).resolve().parent
 # ตรวจสอบการเรียกใช้โมเดลจากผลการเทรนรอบที่ 6 (train-6)
-MODEL_PATH = APP_DIR / "runs" / "detect" / "train-6" / "weights" / "best.pt"
+MODEL_PATH = APP_DIR / "train-6" / "weights" / "best.pt"
 FEEDBACK_DIR = APP_DIR / "feedback"
 FEEDBACK_FILE = FEEDBACK_DIR / "corrections.jsonl"
 CONFIDENCE_THRESHOLD = 0.40
