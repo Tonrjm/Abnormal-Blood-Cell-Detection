@@ -3,5 +3,5 @@ pandas
 numpy
 plotly
 ultralytics
-opencv-python-headless
 streamlit-cropper
+opencv-python-headless
